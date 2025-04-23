@@ -88,13 +88,13 @@ desc students;
 
 insert into students(student_id,name,email,branch,year,phone)
 values
-(101,'Aditya Porwal','aadityporwal96@gmail.com','Computer Science',2024,6377828779);
+(101,'Aditya Porwal','aadityporwal96@gmail.com','Computer Science',2024,6377827679);
 
 select * from students;
 
 insert into students(student_id,name,email,branch,year,phone)
 values
-(105,'Kuldeep Singh Rathore','KuldeepSinghRathore@gmail.com','Computer Science',2024,8949926724);
+(105,'Kuldeep Singh Rathore','KuldeepSinghRathore@gmail.com','Computer Science',2024,8934426724);
 
 INSERT INTO Author (author_id, author_name)
 VALUES
@@ -218,11 +218,11 @@ select * from books;
 
 INSERT INTO students(student_id, name, email, branch, year, phone)
 VALUES
-(106, 'Akshat Pandey', 'akshat.pandey@gmail.com', 'Mechanical', 2024, 6367226219),
-(107, 'Ankit Kumar', 'ankit.kumar@gmail.com', 'Electrical', 2024, 8409626321),
-(108, 'Harish Sharma', 'harish.sharma@gmail.com', 'Civil', 2024, 6378780329),
-(109, 'Jitendra Singh', 'jitendra.singh@gmail.com', 'Electronics', 2024, 6367906506),
-(110, 'Kavya', 'kavya123@gmail.com', 'Computer Science', 2024, 9729607165);
+(106, 'Akshat Pandey', 'akshat.pandey@gmail.com', 'Mechanical', 2024, 6987226219),
+(107, 'Ankit Kumar', 'ankit.kumar@gmail.com', 'Electrical', 2024, 8409643321),
+(108, 'Harish Sharma', 'harish.sharma@gmail.com', 'Civil', 2024, 6323780329),
+(109, 'Jitendra Singh', 'jitendra.singh@gmail.com', 'Electronics', 2024, 6368896506),
+(110, 'Kavya', 'kavya123@gmail.com', 'Computer Science', 2024, 9723457165);
 
 UPDATE students
 SET branch = 'Computer Science'
